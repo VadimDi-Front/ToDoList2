@@ -1,0 +1,41 @@
+.statistic {
+  width: 380px;
+  height: 200px;
+  padding: 8px;
+  display: flex;
+  background-color: #d1a0f8;
+  border-radius: 15px;
+  justify-content: center; /* по горизонтали */
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+.words {
+  width: 380px;
+  height: 200px;
+  padding: 8px;
+  display: flex;
+  background-color: #fd9e00;
+  border-radius: 15px;
+  justify-content: space-between; /* по горизонтали */
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+.sentences {
+  width: 380px;
+  height: 200px;
+  padding: 8px;
+  display: flex;
+  background-color: #fd8058;
+  border-radius: 15px;
+  justify-content: center; /* по горизонтали */
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+.h2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

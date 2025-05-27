@@ -1,19 +1,12 @@
+import { createRoot } from "react-dom/client";
+import App from "./components/App/App.jsx";
+import "./styles/index.css";
+import { ThemeProvider } from "./components/App/ThemeContext.jsx";
 
-import { createRoot } from 'react-dom/client';
-import App from './components/App/App.jsx';
-import './styles/index.css'
-import { ThemeProvider } from './components/App/ThemeContext.jsx';
-
-
-createRoot(document.getElementById('root')).render(
-
-    <>
-        <ThemeProvider>
-            <App /> {/*вызов плашки из файла App.jsx*/}
-
-        </ThemeProvider>
-
-
-    </>
-
-)
+createRoot(document.getElementById("root")).render(
+  <>
+    <ThemeProvider>
+      <App /> {/*вызов плашки из файла App.jsx*/}
+    </ThemeProvider>
+  </>,
+);

@@ -1,14 +1,26 @@
-.lengthLabel{
-    display: inline-block;
-    font-size: 20px;
-    justify-content: space-between;
-    margin-bottom: 15px;
+.lengthLabel {
+  display: inline-block;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
-.colorPasswordLength{
-
-    color: #a3fdae;
-
+.colorPasswordLength {
+  color: #a3fdae;
 }
 
-
+.textarea-text {
+  display: flex;
+  color: #babac3;
+  letter-spacing: 1px;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #24232b;
+  border: none;
+}
+.textarea-text:focus {
+  outline: none;
+}
